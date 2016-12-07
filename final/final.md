@@ -8,7 +8,16 @@
 
 ## 1.1 What are the entities and the properties?
 
-At the very least, we expect every model to have a notion of entities/objects,with properties/attributes associated to them. The first thing to ask about amodel is what notion coresponds to such entities, and what to their properties.
+At the very least, we expect every model to have a notion of entities/objects, with properties/attributes associated to them. The first thing to ask about amodel is what notion coresponds to such entities, and what to their properties.
+
+| model/Lang     | answer               |
+| -------------- | -------------------- |
+| relational/SQL | Tables and relations |
+| OO/OQL         |                      |
+| XML/XPath      |                      |
+| XML/XQuery     |                      |
+| neo4j/Cypher   | Nodes and edges      |
+| JSON/NqQL      |                      |
 
 ## 1.2 What notions of collections of entities exist?
 
@@ -152,7 +161,7 @@ We call these queries “nested” within the “outer query” that performs th
 
 ## 3 The Survey
 
-Answer all the above questions for the following (model,language) pairs studiedduring this course:
+Answer all the above questions for the following (model,language) pairs studied during this course:
 
 | model        | language              |
 | ------------ | --------------------- |
